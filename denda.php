@@ -1,28 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="erronka.css">
-    <title>Denda</title>
-</head>
-
-<body>
-
-    <div class="osoa">
-        <header>
-            <div>
-                <p class="izenburua">Second Life</p>
-            </div>
-            <div>
-                <div class="menua">
-                    <a href="hasiera.html">Sarrera</a>
-                    <a href="zerbitzuak.html">Zerbitzuak</a>
-                    <a href="kontaktatu.html">Kontaktatu</a>
-                    <a href="denda.html">Denda</a>
-                    <a href="lagundu.html">Lagundu!</a>
-                </div>
-            </div>
-        </header>
+<?php
+require_once("head.php");
+?>
         <div class="gorputza">
             <div>
                 <div><h2 class="gailumota">Portatilak</h2></div>
@@ -43,7 +24,7 @@
                             </ul>
                         </div>
                         <div class="ordaindu">
-                            <a href="ordaindu.html" target="_blank">Erosi</a>
+                            <a href="ordaindu.php" target="_blank">Erosi</a>
                         </div>
                     </div>
                     <div>

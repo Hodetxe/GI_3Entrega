@@ -1,24 +1,9 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <link rel="stylesheet" href="erronka.css">
-    <title>Zerbitzuak</title>
-</head>
-
-<body>
-    <div class="osoa">
-        <header>
-            <p class="izenburua">Second Life</p>
-
-            <div class="menua">
-                <a href="hasiera.html">Sarrera</a>
-                <a href="zerbitzuak.html">Zerbitzuak</a>
-                <a href="kontaktatu.html">Kontaktatu</a>
-                <a href="denda.html">Denda</a>
-                <a href="lagundu.html">Lagundu!</a>
-            </div>
-        </header>
+<?php
+require_once("head.php");
+?>
 
         <div>
             <h1 class="zerbitzuizenburua">Eskainitako zerbitzuak</h1>

@@ -11,7 +11,7 @@
         <header>
             <p class="izenburua">Second Life</p>
             <div class="menua">
-                <a href="denda.html">Atzera</a>
+                <a href="denda.php">Atzera</a>
             </div>
         </header>
         <div class="gorputzaproduktua">
