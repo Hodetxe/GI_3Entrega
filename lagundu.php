@@ -49,11 +49,7 @@ require_once("head.php");
 
         </div>
 
-        <footer>
-            <div class="footer">
-                <p> &copy; Second Life</p>
-            </div>
-        </footer>
+        <? require_once("footer.php"); ?>
 
     </div>
 

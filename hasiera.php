@@ -47,11 +47,9 @@ require_once("head.php");
         </div>
         <footer>
 
-            <div class="footer">
-                <p> &copy; Second Life</p>
-            </div>
-
-            <div class="kookiak">
+        <? require_once("footer.php"); ?> 
+        </footer>
+        <div class="kookiak">
                 <p>Cookie Politikak </p>
 
                 <div class="kookietestua">
@@ -69,7 +67,6 @@ require_once("head.php");
                     <input type="submit" name="kookiak" value="Onartu">
                 </div>
             </div>
-        </footer>
     </div>
 
 </body>

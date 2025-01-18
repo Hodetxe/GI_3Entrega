@@ -59,11 +59,7 @@
         </div>
         <div class="footer">
 
-            <footer>
-                <div class="footer">
-                    <p> &copy; Second Life</p>
-                </div>
-            </footer>
+        <? require_once("footer.php"); ?>
         </div>
     </div>
 </body>
