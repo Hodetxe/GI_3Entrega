@@ -17,8 +17,7 @@
         <div class="gorputzaproduktua">
             <div class="produktua">
                 <div class="produktuirudia">
-                    <img class="ordainduirudia"
-                        src=".\Produkuak\Portatil-HP.jpg">
+                    <img class="ordainduirudia" src=".\Produkuak\Portatil-HP.jpg">
                 </div>
                 <div class="esplikatuproduktua">
                     <div class="produktudeskribapena">
@@ -59,7 +58,9 @@
         </div>
         <div class="footer">
 
-        <? require_once("footer.php"); ?>
+            <?php
+            require_once("footer.php")
+                ?>
         </div>
     </div>
 </body>

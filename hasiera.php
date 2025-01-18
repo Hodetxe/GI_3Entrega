@@ -5,69 +5,71 @@
 require_once("head.php");
 ?>
 
-        <div class="gorputza">
-            <img class=" logoa" src="Logo.jpg">
-            <div class="info">
-                <p>
-                    <font size="10">B</font>igarren eskuko ordenagailuen salmentak aurretik beste
-                    erabiltzaile batzuen bidez
-                    erabilitako ekipamendu informatikoen merkaturatzea dakar.
-                    Transakzio mota honek alternatiba merkeagoa eskaintzen du ordenagailu bat eskuratzeko,
-                    gailu berri batean inbertitu beharrik izan gabe,
-                    hau da, kostu altuak ekar ditzakeena.
-                </p> <br> <br>
-                <p>Pertsona askok bigarren eskuko ordenagailuak erostea aukeratzen dute, eta horretarako hainbat arrazoi
-                    daude.
-                    Lehenik eta behin, aurrezki ekonomikoa da erakargarri nagusietako bat, izan ere,
-                    ekipamendu hauek prezio nabarmen baxuagoan aurki daitezke modelo berri batean baino.
-                    Gainera, askotan, beharretara egokitzen diren ordenagailu onak aurki daitezke, hala nola interneten
-                    nabigatzeko,
-                    dokumentuak lantzeko edo ikasketa-tasak egiteko.</p>
-                <br><br>
-                <p>Bigarren eskuko ordenagailuen salmentak ere iraunkortasuna sustatzen du,
-                    ekipamenduak berrerabiliz, elektronikako hondakinak murrizten laguntzen baita.
-                    Hori bereziki garrantzitsua da, obsolescente programatua
-                    eta kontsumo gehiegizkoa kezka handiak diren mundu batean.</p>
-                <br> <br>
-                <p>Bigarren eskuko gailu hauek eskuratzeko lekuak askotarikoak dira.
-                    Denda espezializatuetan, produktu birkonponduen merkaturatzean,
-                    edo baita sare sozialen salmenta-taldeetan ere aurki daitezke.</p>
-                <br><br>
-                <p>Hala ere, garrantzitsua da bigarren eskuko ordenagailu bat eskuratu aurretik
-                    zenbait alderdi kontuan hartzea. Ekipamenduaren egoera egiaztatzea,
-                    bermearen informazioa kontsultatzea (baldin badago) eta saltzailea fidagarria den
-                    ziurtatzea funtsezko pausoak dira erosketa on bat egiteko.</p>
-                <br><br>
-                <p>Laburbilduz, bigarren eskuko ordenagailuen salmenta praktika bat da,
-                    erosleentzat eta ingurumenerako onura ekartzen duena,
-                    merkatu teknologikoan etengabe aldatzen den aukera irisgarri eta iraunkorra eskaintzen duena.</p>
+<div class="gorputza">
+    <img class=" logoa" src="Logo.jpg">
+    <div class="info">
+        <p>
+            <font size="10">B</font>igarren eskuko ordenagailuen salmentak aurretik beste
+            erabiltzaile batzuen bidez
+            erabilitako ekipamendu informatikoen merkaturatzea dakar.
+            Transakzio mota honek alternatiba merkeagoa eskaintzen du ordenagailu bat eskuratzeko,
+            gailu berri batean inbertitu beharrik izan gabe,
+            hau da, kostu altuak ekar ditzakeena.
+        </p> <br> <br>
+        <p>Pertsona askok bigarren eskuko ordenagailuak erostea aukeratzen dute, eta horretarako hainbat arrazoi
+            daude.
+            Lehenik eta behin, aurrezki ekonomikoa da erakargarri nagusietako bat, izan ere,
+            ekipamendu hauek prezio nabarmen baxuagoan aurki daitezke modelo berri batean baino.
+            Gainera, askotan, beharretara egokitzen diren ordenagailu onak aurki daitezke, hala nola interneten
+            nabigatzeko,
+            dokumentuak lantzeko edo ikasketa-tasak egiteko.</p>
+        <br><br>
+        <p>Bigarren eskuko ordenagailuen salmentak ere iraunkortasuna sustatzen du,
+            ekipamenduak berrerabiliz, elektronikako hondakinak murrizten laguntzen baita.
+            Hori bereziki garrantzitsua da, obsolescente programatua
+            eta kontsumo gehiegizkoa kezka handiak diren mundu batean.</p>
+        <br> <br>
+        <p>Bigarren eskuko gailu hauek eskuratzeko lekuak askotarikoak dira.
+            Denda espezializatuetan, produktu birkonponduen merkaturatzean,
+            edo baita sare sozialen salmenta-taldeetan ere aurki daitezke.</p>
+        <br><br>
+        <p>Hala ere, garrantzitsua da bigarren eskuko ordenagailu bat eskuratu aurretik
+            zenbait alderdi kontuan hartzea. Ekipamenduaren egoera egiaztatzea,
+            bermearen informazioa kontsultatzea (baldin badago) eta saltzailea fidagarria den
+            ziurtatzea funtsezko pausoak dira erosketa on bat egiteko.</p>
+        <br><br>
+        <p>Laburbilduz, bigarren eskuko ordenagailuen salmenta praktika bat da,
+            erosleentzat eta ingurumenerako onura ekartzen duena,
+            merkatu teknologikoan etengabe aldatzen den aukera irisgarri eta iraunkorra eskaintzen duena.</p>
 
-            </div>
-
-        </div>
-        <footer>
-
-        <? require_once("footer.php"); ?> 
-        </footer>
-        <div class="kookiak">
-                <p>Cookie Politikak </p>
-
-                <div class="kookietestua">
-                    <p>Second Life-n, zure nabigazio esperientzia hobetzeko,
-                        gure webgunearen erabilera aztertzeko eta eskaintzen dizkizugun edukia pertsonalizatzeko
-                        cookie-ak erabiltzen ditugu. Gure webgunean jarraituz,
-                        cookie-ak erabiltzea onartzen duzu gure cookie politikarekin bat etorriz.</p>
-
-                    <p>Cookie-en lehentasunak edozein unetan kudeatu ditzakezu zure nabigatzailearen konfigurazioaren
-                        bidez.
-                        Erabiltzen ditugun cookie-ak eta nola kontrolatu ditzakezun jakiteko, kontsultatu gure
-                        Pribatutasun Politika.</p>
-                </div>
-                <div class="kookiebotoia">
-                    <input type="submit" name="kookiak" value="Onartu">
-                </div>
-            </div>
     </div>
+
+</div>
+<footer>
+
+    <?php
+    require_once("footer.php")
+        ?>
+</footer>
+<div class="kookiak">
+    <p>Cookie Politikak </p>
+
+    <div class="kookietestua">
+        <p>Second Life-n, zure nabigazio esperientzia hobetzeko,
+            gure webgunearen erabilera aztertzeko eta eskaintzen dizkizugun edukia pertsonalizatzeko
+            cookie-ak erabiltzen ditugu. Gure webgunean jarraituz,
+            cookie-ak erabiltzea onartzen duzu gure cookie politikarekin bat etorriz.</p>
+
+        <p>Cookie-en lehentasunak edozein unetan kudeatu ditzakezu zure nabigatzailearen konfigurazioaren
+            bidez.
+            Erabiltzen ditugun cookie-ak eta nola kontrolatu ditzakezun jakiteko, kontsultatu gure
+            Pribatutasun Politika.</p>
+    </div>
+    <div class="kookiebotoia">
+        <input type="submit" name="kookiak" value="Onartu">
+    </div>
+</div>
+</div>
 
 </body>
 

@@ -3,11 +3,31 @@
 <?php
 require_once("head.php")
     ?>
+<div class="irudiak" style="align-self: center;
+    align-items: center;
+    margin-left: 15%;">
+    <?php
 
+    require_once("db.php");
+
+    $conn = konexioaSortu();
+
+    $kontsulta = "SELECT izenAbizenak, irudia  FROM enplegatuak";
+    $result = $conn->query($kontsulta);
+    $ruta = "./Enplegatuak/";
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            echo "<img src= $ruta" . $row['irudia'] . ' alt="" width="200px" style="margin-right: 20px; margin-left: 20px; margin-top: 20px;">';
+            echo $row["izenAbizenak"];
+
+        }
+    } else {
+        echo "Ez dago informaziorik";
+    }
+    $conn->close();
+    ?>
+</div>
 <div class="osoa">
-
-
-
     <div>
         <div class="kontaktuinfo">
             <span class="fa fa-phone" style="font-size: 40px;"></span> <span class="kontaktuak">613587943</span>
@@ -59,7 +79,9 @@ require_once("head.php")
         </div>
     </div>
 
-    <? require_once("footer.php"); ?>
+    <?php
+    require_once("footer.php")
+        ?>
 
 </div>
 
